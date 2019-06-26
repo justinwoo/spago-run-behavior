@@ -1,3 +1,5 @@
+# this is a bug reproduction repo and not actually any real code. what are you doing here.
+
 ```purs
 foreign import argv :: Array String -- from Node process.argv
 
