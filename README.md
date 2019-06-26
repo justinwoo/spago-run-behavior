@@ -1,3 +1,12 @@
+```purs
+foreign import argv :: Array String -- from Node process.argv
+
+main :: Effect Unit
+main = do
+  log $ "argv length:" <> show (Array.length argv)
+  log $ "argv: " <> show argv
+```
+
 ```bash
 $ spago run --node-args "hello world"
 Installation complete.
